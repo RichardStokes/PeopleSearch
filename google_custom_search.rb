@@ -28,6 +28,8 @@ class GoogleCustomSearch
   end  
   
   def normalize_query
+    @query.gsub!(/\"/, "%22")
+    @query.gsub!(/\s/, "+")
   end  
 end
   
