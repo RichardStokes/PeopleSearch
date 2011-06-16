@@ -1,0 +1,220 @@
+{
+ "kind": "customsearch#search",
+ "url": {
+  "type": "application/json",
+  "template": "https://www.googleapis.com/customsearch/v1?q\u003d{searchTerms}&num\u003d{count?}&start\u003d{startIndex?}&hr\u003d{language?}&safe\u003d{safe?}&cx\u003d{cx?}&cref\u003d{cref?}&sort\u003d{sort?}&alt\u003djson"
+ },
+ "queries": {
+  "nextPage": [
+   {
+    "title": "Google Custom Search - Villalobos",
+    "totalResults": 14300,
+    "searchTerms": "Villalobos",
+    "count": 10,
+    "startIndex": 11,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "006511033357032373921:zxj5gjholro"
+   }
+  ],
+  "request": [
+   {
+    "title": "Google Custom Search - Villalobos",
+    "totalResults": 14300,
+    "searchTerms": "Villalobos",
+    "count": 10,
+    "startIndex": 1,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "006511033357032373921:zxj5gjholro"
+   }
+  ]
+ },
+ "context": {
+  "title": "Dance Music Search Engine"
+ },
+ "items": [
+  {
+   "kind": "customsearch#result",
+   "title": "RA: Ricardo Villalobos",
+   "htmlTitle": "RA: Ricardo \u003cb\u003eVillalobos\u003c/b\u003e",
+   "link": "http://www.residentadvisor.net/dj/ricardovillalobos",
+   "displayLink": "www.residentadvisor.net",
+   "snippet": "Villalobos was born in the capital of Chile, Santiago, in the year 1970. However  , at the age of three he moved to Germany with his family after General ...",
+   "htmlSnippet": "\u003cb\u003eVillalobos\u003c/b\u003e was born in the capital of Chile, Santiago, in the year 1970. However\u003cbr\u003e  , at the age of three he moved to Germany with his family after General \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "6qL57gcpy-cJ",
+   "pagemap": {
+    "metatags": [
+     {
+      "author": "Resident Advisor"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "RA: Ricardo Villalobos: Sound brotherhood - Interview",
+   "htmlTitle": "RA: Ricardo \u003cb\u003eVillalobos\u003c/b\u003e: Sound brotherhood - Interview",
+   "link": "http://www.residentadvisor.net/feature.aspx?1128",
+   "displayLink": "www.residentadvisor.net",
+   "snippet": "Oct 23, 2009 ... Ricardo Villalobos: Sound brotherhood. One of the most inventive producers in   electronic music has only one thing on his mind: Sound. ...",
+   "htmlSnippet": "Oct 23, 2009 \u003cb\u003e...\u003c/b\u003e Ricardo \u003cb\u003eVillalobos\u003c/b\u003e: Sound brotherhood. One of the most inventive producers in \u003cbr\u003e  electronic music has only one thing on his mind: Sound. \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "xhMKMcj1Jp8J",
+   "pagemap": {
+    "metatags": [
+     {
+      "author": "Resident Advisor"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "RA News: Villalobos cancels Movement performances",
+   "htmlTitle": "RA News: \u003cb\u003eVillalobos\u003c/b\u003e cancels Movement performances",
+   "link": "http://www.residentadvisor.net/news.aspx?id\u003d12274",
+   "displayLink": "www.residentadvisor.net",
+   "snippet": "May 28, 2010 ... Due to problems obtaining his US work visa, Ricardo Villalobos has been forced   to cancel his two performances this weekend in Detroit. ...",
+   "htmlSnippet": "May 28, 2010 \u003cb\u003e...\u003c/b\u003e Due to problems obtaining his US work visa, Ricardo \u003cb\u003eVillalobos\u003c/b\u003e has been forced \u003cbr\u003e  to cancel his two performances this weekend in Detroit. \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "vEPZtyooC9oJ",
+   "pagemap": {
+    "metatags": [
+     {
+      "author": "Resident Advisor"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "RA Reviews: Ricardo Villalobos - Fabric 36 (Album)",
+   "htmlTitle": "RA Reviews: Ricardo \u003cb\u003eVillalobos\u003c/b\u003e - Fabric 36 (Album)",
+   "link": "http://www.residentadvisor.net/review-view.aspx?id\u003d4805",
+   "displayLink": "www.residentadvisor.net",
+   "snippet": "Oct 8, 2007 ... A year or more after flooring the electronic music world with his own vegetable-  based offering (Alcachofa), Ricardo Villalobos was reclining ...",
+   "htmlSnippet": "Oct 8, 2007 \u003cb\u003e...\u003c/b\u003e A year or more after flooring the electronic music world with his own vegetable-\u003cbr\u003e  based offering (Alcachofa), Ricardo \u003cb\u003eVillalobos\u003c/b\u003e was reclining \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "mkwVOsJDE2EJ",
+   "pagemap": {
+    "metatags": [
+     {
+      "author": "Resident Advisor"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Ricardo Villalobos :: Artists Wiki | Beatportal",
+   "htmlTitle": "Ricardo \u003cb\u003eVillalobos\u003c/b\u003e :: Artists Wiki | Beatportal",
+   "link": "http://www.beatportal.com/artists/ricardo-villalobos/",
+   "displayLink": "www.beatportal.com",
+   "snippet": "Jan 8, 2009 ... Ricardo Villalobos is a Chilean electronic music producer and DJ. He is well-  known for his work in the minimal techno and microhouse genres.",
+   "htmlSnippet": "Jan 8, 2009 \u003cb\u003e...\u003c/b\u003e Ricardo \u003cb\u003eVillalobos\u003c/b\u003e is a Chilean electronic music producer and DJ. He is well-\u003cbr\u003e  known for his work in the minimal techno and microhouse genres.",
+   "cacheId": "kC3mZ_BM6BEJ",
+   "pagemap": {
+    "metatags": [
+     {
+      "copyright": "Copyright (c) 2007 Beatport, LLC. All rights reserved.",
+      "distribution": "global",
+      "dc.title": "Ricardo Villalobos :: Artists Wiki | Beatportal",
+      "dc.creator": "Beatport, LLC",
+      "dc.subject": "Ricardo Villalobos, Richie Hawtin, Luciano, Jay Haze, Shackleton, Raresh, Skull Disco, Fabric,",
+      "dc.description": "Ricardo Villalobos is a Chilean electronic music producer and DJ. He is well-known for his work in the minimal techno and microhouse genres. Villalobos was born in the capital of Chile, Santiago, in t...",
+      "dc.publisher": "Beatport, LLC",
+      "dc.type": "Text",
+      "dc.rights": "Copyright (c) 2007 Beatport, LLC. All rights reserved.",
+      "dc.format": "text/html",
+      "dc.identifier": "http://www.beatportal.com/artists/ricardo-villalobos/"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "RA News: Ricardo Villalobos to play Movement 2011",
+   "htmlTitle": "RA News: Ricardo \u003cb\u003eVillalobos\u003c/b\u003e to play Movement 2011",
+   "link": "http://www.residentadvisor.net/news.aspx?id\u003d14159",
+   "displayLink": "www.residentadvisor.net",
+   "snippet": "May 20, 2011 ... Movement had reserved one slot on that night for a \"secret artist,\" whom they   revealed to be Villalobos this afternoon via their Facebook ...",
+   "htmlSnippet": "May 20, 2011 \u003cb\u003e...\u003c/b\u003e Movement had reserved one slot on that night for a &quot;secret artist,&quot; whom they \u003cbr\u003e  revealed to be \u003cb\u003eVillalobos\u003c/b\u003e this afternoon via their Facebook \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "kt0EwK0D2JMJ",
+   "pagemap": {
+    "metatags": [
+     {
+      "author": "Resident Advisor"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "RA News: Ricardo Villalobos and Max Loderbauer rework ECM",
+   "htmlTitle": "RA News: Ricardo \u003cb\u003eVillalobos\u003c/b\u003e and Max Loderbauer rework ECM",
+   "link": "http://www.residentadvisor.net/news.aspx?id\u003d12963",
+   "displayLink": "www.residentadvisor.net",
+   "snippet": "Apr 20, 2011 ... News: Ricardo Villalobos and Max Loderbauer rework ECM.",
+   "htmlSnippet": "Apr 20, 2011 \u003cb\u003e...\u003c/b\u003e News: Ricardo \u003cb\u003eVillalobos\u003c/b\u003e and Max Loderbauer rework ECM.",
+   "cacheId": "vhl6KPb31WkJ",
+   "pagemap": {
+    "metatags": [
+     {
+      "author": "Resident Advisor"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "RA News: Circoloco DC10 headlined by Villalobos",
+   "htmlTitle": "RA News: Circoloco DC10 headlined by \u003cb\u003eVillalobos\u003c/b\u003e",
+   "link": "http://www.residentadvisor.net/news.aspx?id\u003d11104",
+   "displayLink": "www.residentadvisor.net",
+   "snippet": "Sep 29, 2009 ... Circoloco has announced the full line-up for their DC-10 opening and closing   party, with Ricardo Villalobos leading the charge. ...",
+   "htmlSnippet": "Sep 29, 2009 \u003cb\u003e...\u003c/b\u003e Circoloco has announced the full line-up for their DC-10 opening and closing \u003cbr\u003e  party, with Ricardo \u003cb\u003eVillalobos\u003c/b\u003e leading the charge. \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "ZcT1pHdpdY0J",
+   "pagemap": {
+    "metatags": [
+     {
+      "author": "Resident Advisor"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "RA: Villalobos: The Movie?",
+   "htmlTitle": "RA: \u003cb\u003eVillalobos\u003c/b\u003e: The Movie?",
+   "link": "http://www.residentadvisor.net/feed-item.aspx?id\u003d4874",
+   "displayLink": "www.residentadvisor.net",
+   "snippet": "Aug 25, 2009 ... Apparently there's been a documentary made about Ricardo Villalobos, premiering   at this year's Venice Film Festival, featuring footage from ...",
+   "htmlSnippet": "Aug 25, 2009 \u003cb\u003e...\u003c/b\u003e Apparently there&#39;s been a documentary made about Ricardo \u003cb\u003eVillalobos\u003c/b\u003e, premiering \u003cbr\u003e  at this year&#39;s Venice Film Festival, featuring footage from \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "7jFcDzg6r78J",
+   "pagemap": {
+    "metatags": [
+     {
+      "author": "Resident Advisor"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "RA News: Villalobos confirmed for Movement 2010",
+   "htmlTitle": "RA News: \u003cb\u003eVillalobos\u003c/b\u003e confirmed for Movement 2010",
+   "link": "http://www.residentadvisor.net/news.aspx?id\u003d12075",
+   "displayLink": "www.residentadvisor.net",
+   "snippet": "Apr 26, 2010 ... Paxahau have announced a slew of additions to this year's Movement lineup,   including Ricardo Villalobos, who will be making his first ...",
+   "htmlSnippet": "Apr 26, 2010 \u003cb\u003e...\u003c/b\u003e Paxahau have announced a slew of additions to this year&#39;s Movement lineup, \u003cbr\u003e  including Ricardo \u003cb\u003eVillalobos\u003c/b\u003e, who will be making his first \u003cb\u003e...\u003c/b\u003e",
+   "cacheId": "XZgiUSJJNiYJ",
+   "pagemap": {
+    "metatags": [
+     {
+      "author": "Resident Advisor"
+     }
+    ]
+   }
+  }
+ ]
+}
