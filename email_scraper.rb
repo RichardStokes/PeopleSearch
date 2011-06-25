@@ -3,20 +3,12 @@
 
 class EmailScraper
   
-  EmailRegex = /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\Z/i
+  @@email_regex = /\b[\w\.]+@[\w]+\.[\w]+\b/
 
   def EmailScraper.scrape(doc)
     email_addresses = []
-    File.open(doc) do |file|
-      while line = file.gets
-        temp = line.scan(EmailRegex)
-
-        temp.each do |email_address|
-          email_addresses << email_address
-        end
-             
-      end
-    end 
+    addresses = doc.scan(@@email_regex)
+    addresses.each { |address| email_addresses << address } 
     return email_addresses
   end
 end
