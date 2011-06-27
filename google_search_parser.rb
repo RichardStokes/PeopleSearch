@@ -7,7 +7,7 @@ class GoogleSearchQuery
   
   attr_accessor :query, :num_results, :query_urls, :domain
 
-  def initialize(query, num_results, domain = "ie")
+  def initialize(query, num_results = "100", domain = "ie")
 	  @query = query.rstrip
 	  normalize_query
 	  @num_results = num_results.to_i
