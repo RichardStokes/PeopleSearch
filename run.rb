@@ -1,9 +1,10 @@
 #!/usr/bin/env ruby
 
-require 'net/http'
+require 'net/https'
 require 'uri'
 require 'google_search_parser.rb'
 require 'email_scraper.rb'
+require 'page.rb'
 
 puts "What is your query?"
 query = gets
@@ -11,31 +12,46 @@ puts "How many results would you like returned?"
 num_results = gets.to_i
 
 query = GoogleSearchQuery.new(query, num_results)
-results = query.send_query
+results = query.get_results
 addresses = []
 linkedin_pages = []
-
-puts "\nResults:\n"
-results.each { |result| puts result }
+facebook_pages = []
+twitter_pages = []
 
 results.each do |link|
-  uri = URI.parse(link)
-  html = Net::HTTP.get_response(uri).body
-  text = Nokogiri::HTML(html).text
-  emails = EmailScraper.scrape(text)
   
-  emails.each do |address| 
-    addresses << address
-  end 
+  if !link.match(/\.pdf+/)
+    puts "Processing: #{link}\n"
+    page = Page.new(link)
+    emails = EmailScraper.scrape(page.content)
+    
+    emails.each do |address|
+      addresses << address
+    end
   
-  linkedin_pages << link if link.match(/^http:\/\/.+\.linkedin.com\/(pub(?!\/dir)|in)/)
-end 
+  linkedin_pages << page if page.url.match(/^http:\/\/.+\.linkedin\.com\/(pub(?!\/dir)|in)/)
+  facebook_pages << page if page.url.match(/^http:\/\/www\.facebook\.com\//)
+  twitter_pages <<  page if page.url.match(/^https?:\/\/(www\.)?twitter\.com\/[^\/]*/)
+  end
+end
 
-puts "\nAddresses:\n"
-addresses.each { |address| puts address} 
+if !linkedin_pages.empty?
+  puts "\nLinkedIn pages:\n"
+  linkedin_pages.each { |page| puts page.url }
+end
 
-puts "\nLinkedIn Pages:\n"
-linkedin_pages.each { |page| puts page }
+if !facebook_pages.empty?
+  puts "\nFacebook pages:\n"
+  facebook_pages.each { |page| puts page.url }
+end
+
+if !twitter_pages.empty?
+  puts "\nTwitter pages:\n"
+  twitter_pages.each { |page| puts page.url }
+end
+
+
+
 
 
 
