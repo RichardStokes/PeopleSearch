@@ -17,7 +17,7 @@ class GoogleSearchQuery
 
   # Sends the query, and parses the resulting page for the search result hyperlinks.
   # Returns an array of URL 
-  def send_query
+  def get_results
     	  
 	  # Creates a new array for the result links, then
 	  # sends a HTTP GET request for each query URL
