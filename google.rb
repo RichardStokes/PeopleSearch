@@ -5,7 +5,7 @@ require 'nokogiri'
 
 class Google
     
-  def Google.perform_search query, num_results = 100, domain = "ie"
+  def Google.perform_search(query, num_results = 100, domain = "ie")
     
     query.rstrip!
     query.gsub!(/\s/, "+")
@@ -24,7 +24,7 @@ class Google
     end
     
     if num_additional_results != 0
-      query_urls << "http://www.google.#{domain}/search?q=#{query}&num=#{additional_results}&start=#{x * 100}&safe=off"
+      query_urls << "http://www.google.#{domain}/search?q=#{query}&num=#{num_additional_results}&start=#{x * 100}&safe=off"
     end
     
     # GET each query URL, and proccess it's content for
