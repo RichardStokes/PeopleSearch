@@ -1,0 +1,16 @@
+***Google Relevance Metric***
+P@3:    10/15   67%
+P@10:   13/15   87%
+
+***Repetition Metric***
+P@3:    8/15    54%
+P@10:   11/15   74%
+
+***Keyword Presence Metric***
+P@3:    0/15    74%
+P@10:   0/15    80%
+
+***Edit-Distance Metric***
+P@3:    0/15
+P@10:   0/15
+
